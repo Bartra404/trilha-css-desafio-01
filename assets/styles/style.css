@@ -106,7 +106,7 @@ section {
   color: #33A8DB;
 }
 
-#transform-word {
+#transform-world {
   height: 560px;
   background-size: cover;
   background-position: center;
@@ -115,6 +115,12 @@ section {
   border-top: 1px solid #33A8DB80;
   border-bottom: 1px solid #33A8DB80;
   padding: 12.5rem;
+}
+
+@media (max-width:576px) {
+  #transform-world {
+    padding-right: 100vh;
+  }
 }
 
 #transform-world p {
